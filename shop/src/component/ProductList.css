@@ -1,0 +1,24 @@
+
+.product-list {
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around; /* 수평으로 공간을 균등하게 배분합니다. */
+}
+  
+.product {
+    width: calc(30%-10px);
+    height: 500px;
+    margin: 100px 20px;
+    margin-bottom: 16px;
+    background-color: #f9f9f9;
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
